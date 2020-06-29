@@ -1,0 +1,286 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles
+body,
+html,
+.body {
+  background: #f3f3f3 !important;
+}
+
+.header {
+  background-color: #f0ece7;
+  background: #f0ece7;
+
+  .columns {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 10px !important;
+    padding-left: 20px !important;
+
+    .logo {
+      width: 200px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #9e0b0f;
+      margin-left: 15px;
+      text-align: center;
+      font-size: 12px;
+    }
+
+    .btn {
+      background-color: #9e0b0f;
+      background: #9e0b0f;
+      color: #f3f3f3;
+      padding: 5px 10px;
+      border-radius: 4px;
+    }
+  }
+}
+
+.receipt-img {
+  background-color: #f0ece7;
+  background: #f0ece7;
+
+  .columns {
+    padding-bottom: 40px;
+    padding-top: 0px !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+}
+
+.restaurant {
+  background-color: #f0ece7;
+  background: #f0ece7;
+
+  .columns {
+    padding-bottom: 5px;
+    p {
+      text-align: center;
+      font-size: 24px;
+      font-weight: 800;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.address {
+  background-color: #f0ece7;
+  background: #f0ece7;
+
+  .columns {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    p {
+      text-align: center;
+      font-size: 19px;
+      font-weight: 500;
+      border-bottom: 1px solid $black;
+      padding-bottom: 10px;
+    }
+  }
+}
+
+.customer-name {
+  background-color: #f0ece7;
+  background: #f0ece7;
+  .columns {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+
+    p {
+      font-size: 16px;
+      font-weight: 300;
+    }
+  }
+}
+
+.thanks {
+  background-color: #f0ece7;
+  background: #f0ece7;
+
+  .columns {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    padding-bottom: 15px !important;
+
+    p {
+      font-size: 16px;
+      font-weight: 300;
+      margin: 0;
+
+      a {
+        text-decoration: none;
+        color: #9e0b0f;
+      }
+    }
+  }
+}
+
+.order-number,
+.order-date,
+.order-type,
+.guest-email,
+.guest-phone {
+  background-color: #f0ece7;
+  background: #f0ece7;
+
+  .columns {
+    padding-left: 50px !important;
+    padding-right: 10px !important;
+    padding-bottom: 10px !important;
+
+    p {
+      font-size: 16px;
+      font-weight: 300;
+    }
+  }
+}
+
+.ordered {
+  background-color: #f0ece7;
+  background: #f0ece7;
+
+  .columns {
+    padding-top: 10px !important;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    padding-bottom: 10px !important;
+
+    p {
+      font-size: 16px;
+      font-weight: 300;
+    }
+  }
+}
+
+.item {
+  background-color: #f0ece7;
+  background: #f0ece7;
+
+  .columns {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    padding-top: 16px;
+
+    p {
+      display: inline-block;
+      margin: 0;
+      font-size: 14px;
+    }
+  }
+}
+
+.order-total {
+  background-color: #f0ece7;
+  background: #f0ece7;
+
+  .columns {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+}
+
+.apps {
+  background-color: #f0ece7;
+  background: #f0ece7;
+  border-top: 1px solid $dark-gray;
+  border-bottom: 1px solid $dark-gray;
+
+  .columns {
+    padding-top: 16px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    border-right: 1px solid $dark-gray;
+
+    img {
+      width: 100px;
+      margin: 0 auto;
+    }
+  }
+  .last {
+    border-right: none !important;
+  }
+}
+
+.follow {
+  background-color: #f0ece7;
+  background: #f0ece7;
+
+  .columns {
+    padding-top: 20px;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+
+    p {
+      text-align: center;
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 0;
+      color: #868686;
+    }
+  }
+}
+
+.social {
+  background-color: #f0ece7;
+  background: #f0ece7;
+
+  .social-padding {
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+    .columns {
+      padding-bottom: 20px !important;
+      img {
+        width: 32px;
+        margin: 0 auto !important;
+      }
+    }
+  }
+}
+
+.copyright {
+  background-color: #f3f3f3;
+  background: #f3f3f3;
+
+  .columns {
+    padding-top: 40px !important;
+    p {
+      text-align: center;
+      font-size: 12px;
+    }
+  }
+}
+
+.street {
+  background-color: #f3f3f3;
+  background: #f3f3f3;
+
+  .columns {
+    p {
+      text-align: center;
+      font-size: 12px;
+    }
+  }
+}
+
+.bottom-links {
+  background-color: #f3f3f3;
+  background: #f3f3f3;
+
+  .columns {
+    padding-bottom: 40px !important;
+    a {
+      text-decoration: none;
+      color: $dark-gray;
+      text-align: center;
+      margin: 0 auto;
+      margin-right: 10px;
+      margin-left: 10px;
+      font-size: 13px;
+    }
+  }
+}
